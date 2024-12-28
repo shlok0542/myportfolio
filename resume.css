@@ -242,14 +242,14 @@ header .menu-part ul li a:hover {
 
 }
 .resume-part .content .bottom .school-info .first{
-  width: 40%;
+  width: 45%;
   height:100%;
   box-shadow:10px 10px 5px rgb(205, 200, 200);
   padding-left:15px;
   border: 1px solid  rgb(230, 218, 206);
 }
 .resume-part .content .bottom .school-info .second{
-  width: 40%;
+  width: 45%;
   height:100%;
   box-shadow:10px 10px 5px rgb(205, 200, 200);
   padding-left: 15px;
