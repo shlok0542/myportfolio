@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ysabeau SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+    background-color: white;
+}
+
+/* header section */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  background-color: white;
+  padding: 10px 50px;
+  margin-bottom: 100px;
+  z-index: 1;
+}
+.intro-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .intro-part .logo {
+  height: 15px;
+  width: 15px;
+  background-color: blue;
+  margin: 4px;
+}
+header .intro-part .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+header p {
+  font-size: 15px;
+  position: relative;
+  top: 3px;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+header .menu-part {
+  width: 50%;
+  height: 100%;
+}
+header .menu-part ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+header .menu-part ul .index{
+  border-bottom: blue 2px solid;
+}
+header .menu-part ul:first-child {
+  color: blue;
+}
+header .menu-part ul li {
+  width: 40%;
+  padding: 5px;
+}
+header .menu-part ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+header .menu-part ul li a:hover {
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.1s ease;
+}
+/* resume part */
+::-webkit-scrollbar {
+  width: 0px;
+}
+.resume-part{
+  width: 100%;
+  height:95rem;
+  background-color: rgb(230, 218, 206);
+}
+.resume-part .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+}
+.resume-part .content .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.resume-part .content .top .logo {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+.resume-part .content .top h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.resume-part .content .bottom{
+  width:700px;
+  height:70rem;
+}
+.resume-part .content .bottom .download{
+  width: 100%;
+  display: flex;
+  justify-content:right;
+  margin-bottom:50px;
+}
+.resume-part .content .bottom .download button{
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: blue;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+.resume-part .content .bottom .download button:hover{
+  font-size: 15;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.resume-part .content .bottom .college-info{
+  width:100%;
+  height:16rem;
+  background-color: white;
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom: 50px;
+}
+.resume-part .content .bottom .college-info .head{
+  width: 100%;
+  height:2rem;
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 10px;
+  margin-bottom:20px;
+}
+.resume-part .content .bottom .college-info .foot{
+  width: 100%;
+  height:14rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.resume-part .content .bottom .college-info .first{
+   width:60%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 7px;
+}
+.resume-part .content .bottom .college-info .first i{
+  font-size:17px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.resume-part .content .bottom .college-info .first h1{
+  color: blue;
+  width: 100%;
+  font-size:22px;
+  text-align:left;
+  margin-bottom:5px;
+ 
+}
+.resume-part .content .bottom .college-info .first h5{
+  width: 100%;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom:5px;
+}
+.resume-part .content .bottom .college-info .first a{
+   font-size:15px;
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+   font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style:normal;
+}
+.resume-part .content .bottom .college-info .first p{
+  width: 100%;
+  font-size: 12px;
+}
+.resume-part .content .bottom .college-info .first h6{
+  width: 100%;
+  font-size: 10px;
+  margin-left:7px;
+}
+.resume-part .content .bottom .college-info .second{
+  width:40%;
+  height: 100%;
+  text-align:left;
+  font-size: 14px; 
+  padding-top: 10px;
+}
+.resume-part .content .bottom .school-info{
+  width:100%;
+  height:16rem;
+  background-color: white;
+  padding: 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom: 50px;
+
+}
+.resume-part .content .bottom .school-info .first{
+  width: 40%;
+  height:100%;
+  box-shadow:10px 10px 5px rgb(205, 200, 200);
+  padding-left:15px;
+  border: 1px solid  rgb(230, 218, 206);
+}
+.resume-part .content .bottom .school-info .second{
+  width: 40%;
+  height:100%;
+  box-shadow:10px 10px 5px rgb(205, 200, 200);
+  padding-left: 15px;
+  border: 0.1px solid rgb(205, 200, 200); 
+}
+.resume-part .content .bottom .school-info h1{
+  color: blue;
+  width: 100%;
+  font-size:22px;
+  text-align:left;
+  margin-bottom:10px;
+}
+.resume-part .content .bottom .school-info i{
+  font-size:17px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.resume-part .content .bottom .school-info span{
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+.resume-part .content .bottom .skill{
+  width:100%;
+  height:25rem;
+  background-color: white;
+  padding: 30px;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.resume-part .content .bottom .skill .professional{
+   width: 100%;
+   height:10rem;
+}
+.resume-part .content .bottom .skill .language{
+  width: 100%;
+  height: 7rem;
+}
+.resume-part .content .bottom .skill h1{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.resume-part .content .bottom .skill .professional .first{
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.resume-part .content .bottom .skill .professional .second{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.resume-part .content .bottom .skill .language .first{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.resume-part .content .bottom .skill span{
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.resume-part .content .bottom .skill .box{
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  margin-right: 10px;
+}
+.resume-part .content .bottom .skill h4{
+  font-size: 17px;
+  font-weight: 500;
+}
+/* resume part End */
+
+
+/* footer section */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  border-bottom:1px solid gray;
+}
+footer .license {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+footer .license p {
+  font-size: 15px;
+  font-weight: 900;
+}
+footer .contact-details {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+footer .contact-details section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .contact-details section h4 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+footer .contact-details section p {
+  font-size: 12px;
+  color: rgb(34, 34, 210);
+}
+footer .contact-details section ul i {
+  font-size: 20px;
+  margin-right: 12px;
+}
+footer .contact-details section ul i:hover {
+  cursor: pointer;
+  color: blue;
+  transition: all 0.1s ease;
+  scale: 1.05;
+}

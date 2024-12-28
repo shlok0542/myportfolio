@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Ysabeau SC", serif;
+      font-optical-sizing: auto;
+      font-weight:500;
+      font-style: normal;
+}
+/* header section */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 100px;
+    position: fixed;
+    background-color:white ;
+    padding:10px 50px ;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+.intro-part{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+header .intro-part .logo{
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    margin: 4px;
+}
+header .intro-part .name{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+header span{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif
+}
+header p{
+  font-size: 15px;
+  position: relative;
+  top: 3px;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+header .menu-part{
+        width:50%;
+        height:100%;
+}
+header .menu-part ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;  
+}
+header .menu-part ul .index{
+    border-bottom: blue 2px solid;
+}
+header .menu-part ul li{
+    width: 40%;
+    padding: 5px;
+}
+header .menu-part ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+header .menu-part ul a:hover{
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.1s ease;
+}
+/* header section End */
+
+/* hero section */
+/* Webkit Browsers */
+::-webkit-scrollbar {
+    width: 0px;
+}
+.hero-section{
+   height:40rem;
+   width: 100%;
+   padding-right:20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top:150px;
+   margin-bottom: 200px;
+}
+.hero-section .left{
+    width: 40%;
+    height: 100%;
+   background-color:rgb(230, 218, 206);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hero-section .left .portfolio{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(244, 236, 230);
+    position: relative;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow:0px -0.5px 20px 0.2px rgb(142, 145, 145);
+}
+.hero-section .left .portfolio .my-photo{
+    width:150px;
+    height:150px;
+    background-image:url(profile-pic.png);
+    background-size: cover;
+    position: relative;
+    top: 100px;
+    border-radius: 50%;
+}
+.hero-section .left .portfolio .my-photo:hover{
+        cursor: pointer;
+        scale: 1.05;
+        transition:all 0.3s ease-in-out;
+        box-shadow: 0px 0px 50px 1px cyan;
+}
+.hero-section .left .portfolio .name{
+    height: 40%;
+    width:  100%;
+    position:relative;
+    top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .left .portfolio .name h1{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+}
+.hero-section .left .portfolio .name .line{
+    width:20%;
+    margin:20px;
+    border-bottom:2px solid blue;
+}
+.hero-section .left .portfolio .name h4{
+    font-size: 20px;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.hero-section .left .portfolio .links{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.hero-section .left .portfolio .links i{
+    font-size: 20px;
+    margin: 10px;   
+}
+.hero-section .left .portfolio .links i:hover{
+    cursor: pointer;
+    color: blue;
+    transition: all 0.2s ease;  
+    scale: 1.2;
+}
+/* right part of hero section */ 
+
+.hero-section .right{
+    width: 60%;
+    height: 100%;
+    padding-left:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:left;
+
+}
+.hero-section .right h1{
+    font-size: 100px;
+    font-weight: 600;
+}
+.hero-section .right h4{
+    font-size: 30px;
+    margin: 10px;
+}
+.hero-section .right .resume-project{
+width: 63%;
+height:50px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+margin-bottom: 50px;
+}
+.hero-section .right .resume-project button{
+    width: 140px;
+    height: 35px;
+    background-color:rgb(0, 80, 255);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.hero-section .right .resume-project button:hover{
+    cursor: pointer;
+    border: 2px solid rgb(0, 80, 255);
+    color:black;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+.hero-section .right p{
+      font-family: "Ysabeau SC", serif;
+      font-optical-sizing: auto;
+      font-weight:500;
+      font-style: normal;
+      margin-bottom:10px ;
+}
+.hero-section .right p span{
+    color: blue;
+}
+/* hero section End */
+
+/* footer section  */
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    border-bottom:1px solid gray;
+    /* padding: 10px 50px; */
+}
+footer .license {
+    width: 50%;
+    display: flex;
+    justify-content:left;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+footer .license p{
+    font-size: 15px;
+    font-weight: 900;
+}
+footer .contact-details{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-right: 20px;
+}
+footer .contact-details section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .contact-details section h4{
+    color: black;
+    font-size:20px ;
+    font-weight:600;
+    margin-bottom:20px;
+}
+footer .contact-details section p{
+    font-size:12px ; 
+    color:rgb(34, 34, 210)
+}
+footer .contact-details section ul i{
+       font-size: 20px;
+       margin-right: 12px;
+}
+footer .contact-details section ul i:hover{
+    cursor: pointer;
+    color: blue;
+    transition: all 0.1s ease;
+    scale: 1.05;
+}
